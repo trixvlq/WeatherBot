@@ -16,7 +16,7 @@
 
 ```bash
 git clone https://github.com/trixvlq/WeatherBot
-bash```
+```
 cd WeatherBot
 2. Настройка окружения
 Создайте файл .env в корневой директории проекта и добавьте ваши токены:
