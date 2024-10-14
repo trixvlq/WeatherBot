@@ -16,19 +16,25 @@
 
 ```bash
 git clone https://github.com/trixvlq/WeatherBot
-```
 cd WeatherBot
-2. Настройка окружения
-Создайте файл .env в корневой директории проекта и добавьте ваши токены:
+```
 
+2. Настройка окружения
+
+Создайте файл .env в корневой директории проекта и добавьте ваши токены:
+```bash
 BOT_TOKEN='7572524642:AAFkVVX61kbFzd0jJtQtnDRrZAg6sAI7DUw'
 API_KEY='cb8801fceffebeb18636363fc0e20105'
+```
+
 3. Сборка контейнера
 Используйте Docker Compose для сборки и запуска контейнера:
 
-bash
+``` bash
 docker-compose up --build
+```
 4. Запуск бота
+
 После сборки и запуска контейнера бот начнет работать и будет готов к приему команд в Telegram по ссылке https://t.me/NotSoUniqueWeatherBot.
 
 Использование
